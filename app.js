@@ -189,6 +189,7 @@ Add a New Project
             return promptProject(portfolioData);
         } 
         else {
+            console.log(portfolioData)
             return portfolioData;
         }
     });
